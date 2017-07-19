@@ -16,11 +16,11 @@
     <jsp:body>
 		<div class=" col-md-6 col-md-offset-3">
 	        <h1>${detalhes.titulo}</h1>
-	        <image src="${detalhes.imagem}" />
+	        <image src="${detalhes.imagem }" />
 	
 	        <div>
 	            <label for="ano">Ano</label>
-	            <span id="ano">${detalhes.ano}</span>
+	            <span id="ano">${detalhes.ano }</span>
 	        </div>
 	
 	        <div>
